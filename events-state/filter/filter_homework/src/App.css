@@ -1,0 +1,20 @@
+
+.body {
+  width: 80%;
+  margin: auto;
+}
+
+.img_cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.img {
+  padding-top: 2%;
+  width: 30%;
+}
+
+img {
+  margin: auto;
+}
