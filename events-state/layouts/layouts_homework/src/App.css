@@ -4,7 +4,11 @@
   margin: auto;
 }
 
-.img_cont {
+.view_list {
+  display: grid;
+}
+
+.view_module {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -14,11 +18,6 @@
   margin-bottom: 10%;
   height: 300px;
   width: 300px;
-}
-
-img {
-  width: 100%;
-  height: auto;
 }
 
 .button_cont {

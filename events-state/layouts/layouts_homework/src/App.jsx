@@ -26,7 +26,7 @@ export default class Store extends Component {
           <div className="button_cont">
           <IconSwitch icon={layoutType} onSwitch={this.handleSwitch} />
           </div>
-          <div className="img_cont">
+          <div className={layoutType}>
             {products.map((item, index) => (
               <div className="img" key={index}>
                 <img src={item.img} alt={item.category} />
